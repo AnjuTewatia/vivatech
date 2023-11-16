@@ -15,7 +15,7 @@ Task Manager is a simple React application for managing tasks. It allows users t
 - View a list of existing tasks
 - Create new tasks
 - Delete tasks
-  Export the list to the excel file
+- Export the list to the excel file
 
 ## Getting Started
 
