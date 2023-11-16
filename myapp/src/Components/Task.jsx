@@ -8,7 +8,6 @@ const Task = () => {
   // State to hold the data for a new task
   const [newPost, setNewPost] = useState({
     title1: "",
-    title2: "", // You have title2 in the state, but it's not used in the component
   });
 
   // Fetch tasks from the API when the component mounts
@@ -58,7 +57,6 @@ const Task = () => {
       setNewPost({
         id: 0, // Assuming id as an indicator for a new task
         title1: "",
-        title2: "",
       });
 
       console.log("POST request successful", newPost);
@@ -112,6 +110,8 @@ const Task = () => {
           </tbody>
         </table>
       </div>
+
+      <div></div>
       <hr />
       <hr />
 
